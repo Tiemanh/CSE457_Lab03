@@ -1,0 +1,4 @@
+﻿method,accuracy,train_samples_per_class,train_seconds,test_ms_per_trial
+HMM39,1.0,6,0.040040299999418494,0.6725600000208942
+DTW13,1.0,6,0.0,1.9596999999521358
+DTW39,1.0,6,0.0,2.207020000059856

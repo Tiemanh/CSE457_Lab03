@@ -1,0 +1,126 @@
+{
+  "unigram": {
+    "mo": 8,
+    "len": 9,
+    "dung": 13,
+    "xuong": 5,
+    "dong": 5
+  },
+  "outgoing": {
+    "<s>": 14,
+    "mo": 7,
+    "len": 8,
+    "xuong": 5,
+    "dung": 4,
+    "dong": 2
+  },
+  "bigram": [
+    {
+      "previous": "<s>",
+      "current": "dong",
+      "count": 2
+    },
+    {
+      "previous": "<s>",
+      "current": "dung",
+      "count": 2
+    },
+    {
+      "previous": "<s>",
+      "current": "len",
+      "count": 2
+    },
+    {
+      "previous": "<s>",
+      "current": "mo",
+      "count": 6
+    },
+    {
+      "previous": "<s>",
+      "current": "xuong",
+      "count": 2
+    },
+    {
+      "previous": "dong",
+      "current": "dung",
+      "count": 1
+    },
+    {
+      "previous": "dong",
+      "current": "mo",
+      "count": 1
+    },
+    {
+      "previous": "dung",
+      "current": "dong",
+      "count": 3
+    },
+    {
+      "previous": "dung",
+      "current": "mo",
+      "count": 1
+    },
+    {
+      "previous": "len",
+      "current": "dung",
+      "count": 5
+    },
+    {
+      "previous": "len",
+      "current": "len",
+      "count": 1
+    },
+    {
+      "previous": "len",
+      "current": "xuong",
+      "count": 2
+    },
+    {
+      "previous": "mo",
+      "current": "len",
+      "count": 6
+    },
+    {
+      "previous": "mo",
+      "current": "xuong",
+      "count": 1
+    },
+    {
+      "previous": "xuong",
+      "current": "dung",
+      "count": 5
+    }
+  ],
+  "lexicon": {
+    "mo": [
+      "m",
+      "o_oh",
+      "T_HOI"
+    ],
+    "dong": [
+      "d",
+      "o_closed",
+      "ng",
+      "T_SAC"
+    ],
+    "len": [
+      "l",
+      "e_closed",
+      "n",
+      "T_NGANG"
+    ],
+    "xuong": [
+      "s",
+      "u_open",
+      "o_open",
+      "ng",
+      "T_SAC"
+    ],
+    "dung": [
+      "z",
+      "u_open",
+      "ng",
+      "T_HUYEN"
+    ]
+  }
+}

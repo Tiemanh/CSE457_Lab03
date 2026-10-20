@@ -1,0 +1,9 @@
+# DEMO ONLY: custom symbolic inventory, NOT supplied/approved by instructor.
+# m,d,l,s,z: onset; o_oh,o_closed,e_closed,u_open,o_open: vowel symbols.
+# ng,n: coda; T_HOI,T_SAC,T_NGANG,T_HUYEN: tone tags (not separate phones).
+# These are a data-format illustration, not a standard phonetic transcription.
+mo m o_oh T_HOI
+dong d o_closed ng T_SAC
+len l e_closed n T_NGANG
+xuong s u_open o_open ng T_SAC
+dung z u_open ng T_HUYEN

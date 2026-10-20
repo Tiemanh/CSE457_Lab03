@@ -1,0 +1,15 @@
+{
+  "labels": [
+    "mo",
+    "dong",
+    "len",
+    "xuong",
+    "dung"
+  ],
+  "states": 5,
+  "dimensions": 39,
+  "covariance": "diag",
+  "normalization": "utterance_cmvn",
+  "kind": "synthetic_espeak_ng",
+  "sample_rate": 16000
+}

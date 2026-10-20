@@ -1,0 +1,129 @@
+{
+  "dataset_kind": "synthetic_espeak_ng",
+  "synthetic": true,
+  "train_files": 30,
+  "test_files": 10,
+  "feature_seconds": 1.7764700999996421,
+  "main_configuration": {
+    "states": 5,
+    "dimensions": 39,
+    "selection": "fixed_before_test"
+  },
+  "comparison": [
+    {
+      "method": "HMM39",
+      "accuracy": 1.0,
+      "train_samples_per_class": 6,
+      "train_seconds": 0.040040299999418494,
+      "test_ms_per_trial": 0.6725600000208942
+    },
+    {
+      "method": "DTW13",
+      "accuracy": 1.0,
+      "train_samples_per_class": 6,
+      "train_seconds": 0.0,
+      "test_ms_per_trial": 1.9596999999521358
+    },
+    {
+      "method": "DTW39",
+      "accuracy": 1.0,
+      "train_samples_per_class": 6,
+      "train_seconds": 0.0,
+      "test_ms_per_trial": 2.207020000059856
+    }
+  ],
+  "experiments": [
+    {
+      "states": 3,
+      "dimensions": 39,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 1.0,
+      "test_accuracy": 1.0,
+      "train_seconds": 0.0374627999999575,
+      "test_ms_per_trial": 0.5452599999443919,
+      "hit_iteration_limit": 0,
+      "objective_decreases": 0
+    },
+    {
+      "states": 5,
+      "dimensions": 39,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 1.0,
+      "test_accuracy": 1.0,
+      "train_seconds": 0.040040299999418494,
+      "test_ms_per_trial": 0.6725600000208942,
+      "hit_iteration_limit": 0,
+      "objective_decreases": 1
+    },
+    {
+      "states": 7,
+      "dimensions": 39,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 1.0,
+      "test_accuracy": 1.0,
+      "train_seconds": 0.05803990000003978,
+      "test_ms_per_trial": 0.6489200000032724,
+      "hit_iteration_limit": 0,
+      "objective_decreases": 2
+    },
+    {
+      "states": 5,
+      "dimensions": 13,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 1.0,
+      "test_accuracy": 1.0,
+      "train_seconds": 0.06020059999991645,
+      "test_ms_per_trial": 0.5882600000404636,
+      "hit_iteration_limit": 0,
+      "objective_decreases": 1
+    }
+  ],
+  "noise": {
+    "snr_db": 20,
+    "hmm_accuracy": 0.2,
+    "dtw_accuracy": 0.4
+  },
+  "reject": {
+    "threshold": -49.6569277244795,
+    "source": "5th percentile of true-label scores on inner validation",
+    "clean_known_rejected": 0,
+    "unknown_false_accept_rate": null,
+    "caveat": "Needs independent calibration and unknown-word validation; final-model scale may drift."
+  },
+  "disagreement_cases": [
+    {
+      "condition": "noise20dB",
+      "file": "dung_01.wav",
+      "truth": "dung",
+      "hmm": "xuong",
+      "dtw": "dung",
+      "hmm_correct": false,
+      "dtw_correct": true
+    },
+    {
+      "condition": "noise20dB",
+      "file": "dung_02.wav",
+      "truth": "dung",
+      "hmm": "xuong",
+      "dtw": "dung",
+      "hmm_correct": false,
+      "dtw_correct": true
+    }
+  ],
+  "full_covariance": "Skipped: only 6 utterances/class; 780 covariance parameters/state at 39D vs 39 diagonal.",
+  "lm_context_status": "Hypothetical contexts, no observed previous-word labels; no LM accuracy claim.",
+  "limitations": [
+    "Synthetic voice shared across train/test; no human-speaker generalization claim.",
+    "Lexicon and corpus are custom demonstrations, not instructor-provided.",
+    "DTW reimplemented because Lab 2 source was not supplied.",
+    "Test variants reported descriptively, never used for model selection."
+  ],
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "librosa": "0.11.0",
+    "hmmlearn": "0.3.3",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2"
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "kind": "synthetic_espeak_ng",
+  "voice": "vi",
+  "human_recordings": false,
+  "description": "40 separate syntheses; shared engine/voice across splits. NOT independent human speakers. Accuracy only demonstrates software.",
+  "source": "https://github.com/espeak-ng/espeak-ng",
+  "records": [
+    {
+      "path": "train/mo/mo_01.wav",
+      "label": "mo",
+      "text": "mở",
+      "speed": 135,
+      "pitch": 38,
+      "sha256": "5e2dbc132abc7945333ee8960bb684a74a80d8bdccdac4e1c6c46e19ea7615a1"
+    },
+    {
+      "path": "train/mo/mo_02.wav",
+      "label": "mo",
+      "text": "mở",
+      "speed": 150,
+      "pitch": 44,
+      "sha256": "bbe1d2c6f58ac6320c700342205fd59b70d2f477842fadf06d34fcfc7f48d80e"
+    },
+    {
+      "path": "train/mo/mo_03.wav",
+      "label": "mo",
+      "text": "mở",
+      "speed": 165,
+      "pitch": 50,
+      "sha256": "c86c554d064dd96c547b6f5a66503b521456252db6e487137420d7feb40fcc52"
+    },
+    {
+      "path": "train/mo/mo_04.wav",
+      "label": "mo",
+      "text": "mở",
+      "speed": 180,
+      "pitch": 56,
+      "sha256": "8960a6d1d8a892532a722dfad81c53a2f935d0d2ddba269889119d1dba2945ef"
+    },
+    {
+      "path": "train/mo/mo_05.wav",
+      "label": "mo",
+      "text": "mở",
+      "speed": 195,
+      "pitch": 62,
+      "sha256": "07caa96b685c9c88417bdd278d73ab4c001e9b62a2ba02061dd862c8c1aa1c48"
+    },
+    {
+      "path": "train/mo/mo_06.wav",
+      "label": "mo",
+      "text": "mở",
+      "speed": 210,
+      "pitch": 68,
+      "sha256": "431db6d73ee14d0108f087574aae032d98853eed799e59e073b31e074cefa52d"
+    },
+    {
+      "path": "train/dong/dong_01.wav",
+      "label": "dong",
+      "text": "đóng",
+      "speed": 135,
+      "pitch": 38,
+      "sha256": "3099c980b62b5961a889fec0b97a3203b27476e5b956af675a0bf0995a3d41e6"
+    },
+    {
+      "path": "train/dong/dong_02.wav",
+      "label": "dong",
+      "text": "đóng",
+      "speed": 150,
+      "pitch": 44,
+      "sha256": "f555105796e1691a5d448448f86e5d2b73fc162f529070b13a152014e1e3935a"
+    },
+    {
+      "path": "train/dong/dong_03.wav",
+      "label": "dong",
+      "text": "đóng",
+      "speed": 165,
+      "pitch": 50,
+      "sha256": "21faf134cd8de575db0f48d60bf8f4d8f0e76c3649eb303fef04e67e9e7c1275"
+    },
+    {
+      "path": "train/dong/dong_04.wav",
+      "label": "dong",
+      "text": "đóng",
+      "speed": 180,
+      "pitch": 56,
+      "sha256": "15091d2a724d1e3475f74ba63db948eee2a840b97ec7b54c233da4843916badb"
+    },
+    {
+      "path": "train/dong/dong_05.wav",
+      "label": "dong",
+      "text": "đóng",
+      "speed": 195,
+      "pitch": 62,
+      "sha256": "59239efba66ce861d5a26bc37c0825bb6b23b52d848d1e43ebeff2cb749aab93"
+    },
+    {
+      "path": "train/dong/dong_06.wav",
+      "label": "dong",
+      "text": "đóng",
+      "speed": 210,
+      "pitch": 68,
+      "sha256": "f45af75d073484b4d3bd70a61c439395b20b51244fa6ec6074ba3c65161944c7"
+    },
+    {
+      "path": "train/len/len_01.wav",
+      "label": "len",
+      "text": "lên",
+      "speed": 135,
+      "pitch": 38,
+      "sha256": "6c17aa437d7b946c425ea97232407fed4a948d663d5bbc2c13cfa4e4f99c6b4f"
+    },
+    {
+      "path": "train/len/len_02.wav",
+      "label": "len",
+      "text": "lên",
+      "speed": 150,
+      "pitch": 44,
+      "sha256": "612938c5af61abe82bb00b83f361db796268a874ed9e7d04cd9a0560b933a261"
+    },
+    {
+      "path": "train/len/len_03.wav",
+      "label": "len",
+      "text": "lên",
+      "speed": 165,
+      "pitch": 50,
+      "sha256": "fcff744f26fd4293cb1cfd78ab77e07823cbcc172f637207dca51ca4ae46054f"
+    },
+    {
+      "path": "train/len/len_04.wav",
+      "label": "len",
+      "text": "lên",
+      "speed": 180,
+      "pitch": 56,
+      "sha256": "73804be053a17d5c48bef230d17199d5caa94c27215ad184eecab10d5ef88f14"
+    },
+    {
+      "path": "train/len/len_05.wav",
+      "label": "len",
+      "text": "lên",
+      "speed": 195,
+      "pitch": 62,
+      "sha256": "4fdcbea63ac638eb4c4af5a7eed5dce5e26d824de1d43251b8214b4ed0bbb47c"
+    },
+    {
+      "path": "train/len/len_06.wav",
+      "label": "len",
+      "text": "lên",
+      "speed": 210,
+      "pitch": 68,
+      "sha256": "50783cf78cb1cd8075ddec20a520fe83d09fa384eb67c06476a2b64515e867d1"
+    },
+    {
+      "path": "train/xuong/xuong_01.wav",
+      "label": "xuong",
+      "text": "xuống",
+      "speed": 135,
+      "pitch": 38,
+      "sha256": "26fa242edfe1c3ce36037e764596c25d506a04d60f06aacc58989e60ea713a6c"
+    },
+    {
+      "path": "train/xuong/xuong_02.wav",
+      "label": "xuong",
+      "text": "xuống",
+      "speed": 150,
+      "pitch": 44,
+      "sha256": "01eb85fc4aaf405d311962e65dbab69b8fd6d8ae39c52e04b66bb758ed8704f9"
+    },
+    {
+      "path": "train/xuong/xuong_03.wav",
+      "label": "xuong",
+      "text": "xuống",
+      "speed": 165,
+      "pitch": 50,
+      "sha256": "f004133c174e56db1bcaf4a0a75d567d72620478988f809918476f99bdd6c9ba"
+    },
+    {
+      "path": "train/xuong/xuong_04.wav",
+      "label": "xuong",
+      "text": "xuống",
+      "speed": 180,
+      "pitch": 56,
+      "sha256": "21845842b099b3e027adc8abf871975fff5f21d0869e2f4a5c4b4a35225b4b5a"
+    },
+    {
+      "path": "train/xuong/xuong_05.wav",
+      "label": "xuong",
+      "text": "xuống",
+      "speed": 195,
+      "pitch": 62,
+      "sha256": "6caa5641f4ad62f4733a2c0fa527939d8093bcd397e42ad3d863a84958e82464"
+    },
+    {
+      "path": "train/xuong/xuong_06.wav",
+      "label": "xuong",
+      "text": "xuống",
+      "speed": 210,
+      "pitch": 68,
+      "sha256": "c029de8c38d65a9b2c265d8bb95f863ebd242c856b5700441a5e88982f048f10"
+    },
+    {
+      "path": "train/dung/dung_01.wav",
+      "label": "dung",
+      "text": "dừng",
+      "speed": 135,
+      "pitch": 38,
+      "sha256": "81f172cce07ad72a947b3a3988ebf28668088c6a89f2def6c16c8926a55143b2"
+    },
+    {
+      "path": "train/dung/dung_02.wav",
+      "label": "dung",
+      "text": "dừng",
+      "speed": 150,
+      "pitch": 44,
+      "sha256": "8e75b88b385f5af40a9d58258e478325ffcc13d66e2714bdd471c31214dc7a4c"
+    },
+    {
+      "path": "train/dung/dung_03.wav",
+      "label": "dung",
+      "text": "dừng",
+      "speed": 165,
+      "pitch": 50,
+      "sha256": "1fc801ea68480267c3f093f7d90bd20b2a46ea01488e17aec642b89e966e38b3"
+    },
+    {
+      "path": "train/dung/dung_04.wav",
+      "label": "dung",
+      "text": "dừng",
+      "speed": 180,
+      "pitch": 56,
+      "sha256": "0c5c86770da08fdbea3d72f551500492e2a3563ecae4bf378e9c106d43b65b98"
+    },
+    {
+      "path": "train/dung/dung_05.wav",
+      "label": "dung",
+      "text": "dừng",
+      "speed": 195,
+      "pitch": 62,
+      "sha256": "a78b9ad49a5f31797235b57b37444269346372d047ddb211d680ff9a552e4617"
+    },
+    {
+      "path": "train/dung/dung_06.wav",
+      "label": "dung",
+      "text": "dừng",
+      "speed": 210,
+      "pitch": 68,
+      "sha256": "ed814d3279a46aa6ad74ffbe2bf83380d422d1adae992cbc617252b872b23b90"
+    },
+    {
+      "path": "test/mo/mo_01.wav",
+      "label": "mo",
+      "text": "mở",
+      "speed": 158,
+      "pitch": 47,
+      "sha256": "24a4c65b42a03e4a0008579aa5bd772c5dd52d9b218af1e2cd8d5f8f5777ffe5"
+    },
+    {
+      "path": "test/mo/mo_02.wav",
+      "label": "mo",
+      "text": "mở",
+      "speed": 188,
+      "pitch": 59,
+      "sha256": "4f2dad729353250109c807dbd83d25f188265a9ac9d1510df11b63a8ac51b63a"
+    },
+    {
+      "path": "test/dong/dong_01.wav",
+      "label": "dong",
+      "text": "đóng",
+      "speed": 158,
+      "pitch": 47,
+      "sha256": "9f7dba9426c6f604c0ac478175426f95a5779392865d917bb274544b586efe86"
+    },
+    {
+      "path": "test/dong/dong_02.wav",
+      "label": "dong",
+      "text": "đóng",
+      "speed": 188,
+      "pitch": 59,
+      "sha256": "13750d140d1a41f7a7afc51c43dc01be27bebcbd344c505a717b7f1d85b6253e"
+    },
+    {
+      "path": "test/len/len_01.wav",
+      "label": "len",
+      "text": "lên",
+      "speed": 158,
+      "pitch": 47,
+      "sha256": "5f38543cd4dfaa3224c5e4a94717b1ad9c10d58174f035c52037c5d070408af3"
+    },
+    {
+      "path": "test/len/len_02.wav",
+      "label": "len",
+      "text": "lên",
+      "speed": 188,
+      "pitch": 59,
+      "sha256": "ca49d017eb43df744219b45b3f6ff511e9fd64d6576f84c25a7b238a41ad1ef1"
+    },
+    {
+      "path": "test/xuong/xuong_01.wav",
+      "label": "xuong",
+      "text": "xuống",
+      "speed": 158,
+      "pitch": 47,
+      "sha256": "fb696c443efb44f8f4b7eac5ec95fcf3501cd1bbd2381a70fc8fe6ae1844ec17"
+    },
+    {
+      "path": "test/xuong/xuong_02.wav",
+      "label": "xuong",
+      "text": "xuống",
+      "speed": 188,
+      "pitch": 59,
+      "sha256": "7f6fecea38822a4255461e7371932992af141b4701f1b299f36109438fc67830"
+    },
+    {
+      "path": "test/dung/dung_01.wav",
+      "label": "dung",
+      "text": "dừng",
+      "speed": 158,
+      "pitch": 47,
+      "sha256": "253be6932760873a68d84d1d90b05abf109e9a3fe290abb740064bcdae33a859"
+    },
+    {
+      "path": "test/dung/dung_02.wav",
+      "label": "dung",
+      "text": "dừng",
+      "speed": 188,
+      "pitch": 59,
+      "sha256": "35ad67f81033b1ff564eaff2bdbc091b9ceaf80777adedd8dd07c160b03dbb23"
+    }
+  ]
+}

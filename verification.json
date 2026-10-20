@@ -1,0 +1,10 @@
+{
+  "notebook_code_cells_executed": 11,
+  "notebook_errors": 0,
+  "unit_tests_passed": 9,
+  "execution_method": "IPython InteractiveShell, sequential clean-process execution with captured display outputs",
+  "saved_model_score_checks": 50,
+  "wav_sha256_checks": 40,
+  "real_human_speech_evaluation": false,
+  "report_pages": 6
+}

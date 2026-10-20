@@ -1,0 +1,13 @@
+numpy>=1.26,<3
+scipy>=1.11,<2
+matplotlib>=3.8,<4
+librosa==0.11.0
+soundfile>=0.12,<1
+scikit-learn>=1.4,<2
+hmmlearn==0.3.3
+numba>=0.60
+ipykernel>=6
+nbformat>=5
+nbclient>=0.10
+espeakng-loader==0.2.4
+reportlab>=4,<5
